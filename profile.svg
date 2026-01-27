@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="985px" height="530px"
      font-family="ConsolasFallback,Consolas,monospace"
-     font-size="16px">
+     width="985px" height="530px" font-size="16px">
 
   <style>
     @font-face {
@@ -22,29 +21,31 @@
 
   <rect width="985px" height="530px" fill="#161b22" rx="15"/>
 
-  <!-- Everything starts at x=30 now (instead of x=390) -->
-  <text x="30" y="35" fill="#c9d1d9">
-    <tspan x="30" y="35">matt@github</tspan> -——————————————————————————————————————————————————————
-    <tspan x="30" y="60" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">macOS / Windows / Linux</tspan>
-    <tspan x="30" y="80" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">VS Code, IntelliJ</tspan>
+  <!-- Content block -->
+  <text x="30" y="30" fill="#c9d1d9">
+    <tspan x="30" y="30">matthew rohde</tspan> <tspan class="cc">(</tspan><tspan class="value">@thiccgin</tspan><tspan class="cc">)</tspan> -———————————————————————————————————————————————
+    
+    <tspan x="30" y="55" class="cc">. </tspan><tspan class="key">University</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">California State University, Northridge</tspan>
+    <tspan x="30" y="75" class="cc">  </tspan><tspan class="value">Tokyo University of Foreign Studies</tspan>
 
-    <tspan x="30" y="110" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, Java, C++</tspan>
-    <tspan x="30" y="130" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS, JSON, YAML</tspan>
-    <tspan x="30" y="150" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Japanese</tspan>
+    <tspan x="30" y="105" class="cc">. </tspan><tspan class="key">Stack</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value">Python, Java, React</tspan>
+    <tspan x="30" y="125" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">English, Japanese</tspan>
 
-    <tspan x="30" y="185">- Contact</tspan> -———————————————————————————————————————————————————————————
-    <tspan x="30" y="210" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ...................................... </tspan><tspan class="value">you@example.com</tspan>
-    <tspan x="30" y="230" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">linkedin.com/in/you</tspan>
-    <tspan x="30" y="250" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">yourdomain.com</tspan>
+    <tspan x="30" y="155" class="cc">. </tspan><tspan class="key">Pinned</tspan>.<tspan class="key">Projects</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">Kanji Handwriting App</tspan>
+    <tspan x="30" y="175" class="cc">  </tspan><tspan class="value">Python Game</tspan>
+    <tspan x="30" y="195" class="cc">  </tspan><tspan class="value">CSUN Coursework</tspan>
+    <tspan x="30" y="215" class="cc">  </tspan><tspan class="value">LeetCode Solutions</tspan>
 
-    <tspan x="30" y="285">- GitHub Stats</tspan> -———————————————————————————————————————————————————————
-    <tspan x="30" y="310" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">??</tspan>
-    <tspan x="30" y="330" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">??</tspan>
-    <tspan x="30" y="350" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">??</tspan>
+    <tspan x="30" y="245" class="cc">. </tspan><tspan class="key">Now</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">LeetCode, Kanji App</tspan>
+    <tspan x="30" y="265" class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">Volleyball, Video Games, Trying New Food</tspan>
 
-    <tspan x="30" y="385">- Projects</tspan> -————————————————————————————————————————————————————————————
-    <tspan x="30" y="410" class="cc">. </tspan><tspan class="key">NeetCode</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">leetcode repo link</tspan>
-    <tspan x="30" y="430" class="cc">. </tspan><tspan class="key">Coursework</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">csun-coursework repo link</tspan>
-    <tspan x="30" y="450" class="cc">. </tspan><tspan class="key">Kanji App</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">project link</tspan>
+    <tspan x="30" y="300">- Contact</tspan> -————————————————————————————————————————————————————————————
+    <tspan x="30" y="325" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">mrohde213@gmail.com</tspan>
+    <tspan x="30" y="345" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value" id="linkedin_handle">matthew-rohde</tspan>
+
+    <tspan x="30" y="380">- GitHub Stats</tspan> -———————————————————————————————————————————————————————
+    <tspan x="30" y="405" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ................................... </tspan><tspan class="value" id="repo_data">--</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">--</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........... </tspan><tspan class="value" id="star_data">--</tspan>
+    <tspan x="30" y="425" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................................. </tspan><tspan class="value" id="commit_data">--</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> .......... </tspan><tspan class="value" id="follower_data">--</tspan>
+    <tspan x="30" y="445" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> .... </tspan><tspan class="value" id="loc_data">--</tspan> ( <tspan class="addColor" id="loc_add">--</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">--</tspan><tspan class="delColor">--</tspan> )
   </text>
 </svg>
