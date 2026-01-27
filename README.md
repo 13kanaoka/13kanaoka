@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+My name is Matthew Rohde.
+Working towards Bachelors of Science, Computer Science at CSU Northridge.
+
+This profile has:
+  Solved leetcode problems
+  Personal projects
+  Meaningful coursework completed in undergrad
+
 <!--
 **thiccgin/thiccgin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
