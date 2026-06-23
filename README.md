@@ -5,7 +5,7 @@ I'm a Computer Science student interested in software engineering, game developm
 - Building portfolio projects for software engineering internships
   - Kanji handwriting / SRS study app
 - Strengthening data structures and algorithms
-- Registered for JLPT N2 on July 5th, 2026 and shooting for N1 after that
+- Registered to take the JLPT N2 exam in July, the second highest level of the Japanese Language Proficiency Test
 
 ## Projects
 ### Kanji Handwriting App
