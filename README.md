@@ -8,7 +8,7 @@ I'm interested in software engineering, game development, and building tools tha
 - Strengthening data structures and algorithms
 - Passed JLPT N2 and working towards N1
 
-## Pinned Repositories
+## Projects
 ### Kanji Handwriting App
 An SRS-based app for practicing handwriting the 2,136 daily use Japanese kanji.  
 Built with a focus on language learning, handwriting practice, and long-term memory.
@@ -16,12 +16,6 @@ Built with a focus on language learning, handwriting practice, and long-term mem
 ### Full Stack Chat App
 User to user messaging application that supports photos, logins, and profile customization.  
 Built as a group project for COMP 380 (Intro to Software Engineering)
-
-### CSUN Coding Assignments
-A collection of meaningful coding assignments completed in my undergrad at CSU Northridge.
-
-### Data Structures and Algorithms
-A collection of solved problems and implementations as I study core CS fundamentals.
 
 ## Tech
 Python - Java - JavaScript - React - Git - GitHub  
