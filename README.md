@@ -8,7 +8,7 @@ I'm interested in software engineering, full-stack development, and building too
   - Kanji handwriting / SRS study app
   - Japanese subtitle generator
 - Strengthening data structures and algorithms
-- Passed Japanese Language Profifiency Test (JLPT) N2 and working towards N1
+- Passed JLPT N2 and working towards N1
 
 ## Projects
 ### Kanji Handwriting App
