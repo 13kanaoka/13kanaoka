@@ -1,21 +1,20 @@
 # Hi, I'm Matt!
-
-I'm interested in software engineering, game development, and building tools that I get daily use out of.
+I'm a Computer Science student interested in software engineering, game development, and building practical tools for learning and everyday use.
 
 ## Current Focus
 - Building portfolio projects for software engineering internships
   - Kanji handwriting / SRS study app
 - Strengthening data structures and algorithms
-- Passed JLPT N2 and working towards N1
+- Registered for JLPT N2 on July 5th, 2026 and shooting for N1 after that
 
 ## Projects
 ### Kanji Handwriting App
 An SRS-based app for practicing handwriting the 2,136 daily use Japanese kanji.  
 Built with a focus on language learning, handwriting practice, and long-term memory.
 
-### Full Stack Chat App
-User to user messaging application that supports photos, logins, and profile customization.  
-Built as a group project for COMP 380 (Intro to Software Engineering)
+### Full-Stack Chat App
+A user-to-user messaging app that supports photo sharing, login authentication, and profile customization.  
+Collaborative full-stack project built for COMP 380 (Intro to Software Engineering)
 
 ## Tech
 Python - Java - JavaScript - React - Git - GitHub  
