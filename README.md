@@ -10,12 +10,14 @@ I'm a Computer Science student interested in software engineering, game developm
 ## Projects
 ### Kanji Handwriting App
 An SRS-based app for practicing handwriting the 2,136 daily use Japanese kanji.  
-Built with a focus on language learning, handwriting practice, and long-term memory.
+**Tech** React Native, Python, SQLite
+**Status** In development
 
 ### Full-Stack Chat App
 A user-to-user messaging app that supports photo sharing, login authentication, and profile customization.  
 Collaborative full-stack project built for COMP 380 (Intro to Software Engineering)
+**Status** Completed
 
-## Tech
+## Skills
 Python - Java - JavaScript - React - Git - GitHub  
 Currently learning: C++ / full-stack development
