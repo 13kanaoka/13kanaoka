@@ -47,7 +47,7 @@ Computer Science student at Cal State Northridge (class of 2028), minoring in Ja
 
 ## Projects
 
-### [Gakuji](https://github.com/13kanaoka) — Kanji Learning App
+### [Gakuji](https://github.com/13kanaoka/Gakuji) — Kanji Learning App
 `Flutter` `FastAPI` `PostgreSQL`
 
 Full-stack app for mastering all 2,136 daily-use Japanese kanji. Uses spaced repetition scheduling and handwriting recognition, backed by REST APIs and a PostgreSQL database tracking flashcards, review history, and user progress.
@@ -56,9 +56,16 @@ Full-stack app for mastering all 2,136 daily-use Japanese kanji. Uses spaced rep
 
 ---
 
-### [MERN Messaging App](https://github.com/13kanaoka) — Real-Time Chat App
+### [MERN Messaging App](https://github.com/mattres2001/csun-mern-chat-app) — Real-Time Messaging App
 `MongoDB` `Express` `React` `Node.js` `Tailwind CSS`
 
 Built with an agile team using Jira for sprint planning as part of COMP 380 (Intro to Software Engineering). Includes real-time messaging, user authentication, profile management, and photo sharing.
 
 **Status →** Completed
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/13kanaoka/github-stat-tracker/main/dark_mode.svg">
+  <img alt="GitHub Stats" src="https://raw.githubusercontent.com/13kanaoka/github-stat-tracker/main/light_mode.svg">
+</picture>
