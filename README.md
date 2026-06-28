@@ -1,23 +1,91 @@
-# Hi, I'm Matt!
-I'm a Computer Science student interested in software engineering, game development, and building practical tools for learning and everyday use.
+<h1 align="center">Hi, I'm Matt 👋</h1>
+<h3 align="center">CS Student at CSUN · Exchange Student in Tokyo · Aspiring Software Engineer</h3>
 
-## Current Focus
-- Building portfolio projects for software engineering internships
-  - Kanji handwriting / SRS study app
-- Strengthening data structures and algorithms
-- Registered to take the JLPT N2 exam in July, the second highest level of the Japanese Language Proficiency Test
+<br/>
 
-## Projects
-### Kanji Handwriting App
-An SRS-based app for practicing handwriting the 2,136 daily use Japanese kanji.  
-**Tech →** React Native, Python, SQLite  
+<div align="center">
+  <a href="https://linkedin.com/in/mattrohde">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:matt.n.rohde@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</div>
+
+---
+
+## About Me
+
+I'm a Computer Science student at Cal State Northridge (class of 2028), minoring in Japanese, currently on exchange at Tokyo University of Foreign Studies. I like building tools that are actually useful — especially at the intersection of language learning and software.
+
+- 🇯🇵 Currently in Tokyo (exchange program, Sep 2025 – Aug 2026)
+- 📝 JLPT N2 results pending — the second-highest level of the Japanese Language Proficiency Test
+- 🔨 Building **Gakuji**, a kanji SRS app with handwriting recognition
+- 🎯 Seeking software engineering internships
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Frameworks & Libraries**
+
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+## 📌 Projects
+
+### [Gakuji](https://github.com/13kanaoka) — Kanji Learning App
+`Flutter` `FastAPI` `PostgreSQL`
+
+A full-stack app for mastering all 2,136 daily-use Japanese kanji. Features spaced repetition scheduling and handwriting recognition, with REST APIs and a PostgreSQL database tracking flashcards, review history, and user progress.
+
 **Status →** In development
 
-### Full-Stack Chat App
-A user-to-user messaging app that supports photo sharing, login authentication, and profile customization.  
-Collaborative full-stack project built for COMP 380 (Intro to Software Engineering)  
+---
+
+### [MERN Messaging App](https://github.com/13kanaoka) — Real-Time Chat App
+`MongoDB` `Express` `React` `Node.js` `Tailwind CSS`
+
+Built with an agile team using Jira for sprint planning as part of COMP 380 (Intro to Software Engineering). Features real-time messaging, user authentication, profile management, and photo sharing.
+
 **Status →** Completed
 
-## Skills
-Python - Java - JavaScript - React - Git - GitHub  
-Currently learning: C++ / full-stack development
+---
+
+### More coming soon...
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=13kanaoka&show_icons=true&theme=default&hide_border=true" alt="Matt's GitHub Stats"/>
+</div>
