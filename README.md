@@ -1,20 +1,31 @@
-<h1 align="center">Hi, I'm Matt 👋</h1>
-<h3 align="center">CS Student at CSUN · Exchange Student in Tokyo · Aspiring Software Engineer</h3>
+<h1 align="center">Matt Rohde</h1>
+<h3 align="center">CS Student · CSUN · Exchange Student in Tokyo</h3>
 
 <br/>
 
-## About Me
-
-I'm a Computer Science student at Cal State Northridge (class of 2028), minoring in Japanese, currently on exchange at Tokyo University of Foreign Studies. I like building tools that are actually useful — especially at the intersection of language learning and software.
-
-- 🇯🇵 Currently in Tokyo (exchange program, Sep 2025 – Aug 2026)
-- 📝 JLPT N2 results pending — the second-highest level of the Japanese Language Proficiency Test
-- 🔨 Building **Gakuji**, a kanji SRS app with handwriting recognition
-- 🎯 Seeking software engineering internships
+<div align="center">
+  <a href="https://linkedin.com/in/mattrohde">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:matt.n.rohde@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## About
+
+Computer Science student at Cal State Northridge (class of 2028), minoring in Japanese. Currently on exchange at Tokyo University of Foreign Studies through August 2026.
+
+- JLPT N2 results pending — second-highest level of the Japanese Language Proficiency Test
+- Building **Gakuji**, a kanji SRS app with handwriting recognition
+- Open to software engineering internships
+
+---
+
+## Tech Stack
 
 **Languages**
 
@@ -48,12 +59,12 @@ I'm a Computer Science student at Cal State Northridge (class of 2028), minoring
 
 ---
 
-## 📌 Projects
+## Projects
 
 ### [Gakuji](https://github.com/13kanaoka) — Kanji Learning App
 `Flutter` `FastAPI` `PostgreSQL`
 
-A full-stack app for mastering all 2,136 daily-use Japanese kanji. Features spaced repetition scheduling and handwriting recognition, with REST APIs and a PostgreSQL database tracking flashcards, review history, and user progress.
+Full-stack app for mastering all 2,136 daily-use Japanese kanji. Uses spaced repetition scheduling and handwriting recognition, backed by REST APIs and a PostgreSQL database tracking flashcards, review history, and user progress.
 
 **Status →** In development
 
@@ -62,17 +73,17 @@ A full-stack app for mastering all 2,136 daily-use Japanese kanji. Features spac
 ### [MERN Messaging App](https://github.com/13kanaoka) — Real-Time Chat App
 `MongoDB` `Express` `React` `Node.js` `Tailwind CSS`
 
-Built with an agile team using Jira for sprint planning as part of COMP 380 (Intro to Software Engineering). Features real-time messaging, user authentication, profile management, and photo sharing.
+Built with an agile team using Jira for sprint planning as part of COMP 380 (Intro to Software Engineering). Includes real-time messaging, user authentication, profile management, and photo sharing.
 
 **Status →** Completed
 
 ---
 
-### More coming soon...
+*Additional project in progress.*
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=13kanaoka&show_icons=true&theme=default&hide_border=true" alt="Matt's GitHub Stats"/>
