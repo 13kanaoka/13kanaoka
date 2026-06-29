@@ -4,7 +4,7 @@ Computer Science student at Cal State Northridge class of 2028, minoring in Japa
 
 ---
 
-### [Gakuji](https://github.com/13kanaoka/Gakuji) — Kanji Learning App
+### [Gakuji](https://github.com/13kanaoka/Gakuji) — Kanji Handwriting App
 `Flutter` `FastAPI` `PostgreSQL`
 
 Full-stack app for mastering all 2,136 daily-use Japanese kanji. Uses spaced repetition scheduling and handwriting recognition, backed by REST APIs and a PostgreSQL database tracking flashcards, review history, and user progress.
