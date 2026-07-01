@@ -11,7 +11,7 @@ Full-stack app for mastering all 2,136 daily-use Japanese kanji. Uses spaced rep
 
 **Status →** In development
 
-### [MERN Messaging App](https://github.com/mattres2001/csun-mern-chat-app) — Real-Time Messaging App
+### [MERN Messaging App](https://github.com/mattres2001/csun-mern-chat-app) — Real-Time Student-Facing Chat Platform
 `MongoDB` `Express` `React` `Node.js` `Tailwind CSS`
 
 Built with an agile team using Jira for sprint planning as part of COMP 380 (Intro to Software Engineering). Includes real-time messaging, user authentication, profile management, and photo sharing.
@@ -22,8 +22,8 @@ Built with an agile team using Jira for sprint planning as part of COMP 380 (Int
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
