@@ -12,7 +12,7 @@ Full-stack app for mastering all 2,136 daily-use Japanese kanji. Uses spaced rep
 
 **Status →** In development
 
-### [MERN Messaging App](https://github.com/mattres2001/csun-mern-chat-app) — Real-Time Student-Facing Chat Platform
+### [MERN Messaging App](https://github.com/mattres2001/csun-mern-chat-app) — Student-Facing Real Time Messaging App
 `MongoDB` `Express` `React` `Node.js` `Tailwind CSS`
 
 Built with an agile team using Jira for sprint planning as part of COMP 380 (Intro to Software Engineering). Includes real-time messaging, user authentication, profile management, and photo sharing.
