@@ -1,0 +1,20 @@
+{
+  "name": "13kanaoka",
+  "version": "1.0.0",
+  "description": "<h1>Matt Rohde</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13kanaoka/13kanaoka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/13kanaoka/13kanaoka/issues"
+  },
+  "homepage": "https://github.com/13kanaoka/13kanaoka#readme"
+}
