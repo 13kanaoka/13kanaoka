@@ -12,7 +12,7 @@ import hashlib
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'Andrew6rant'
-QUERY_COUNT = {'user_getter': 0, 'pr_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'pr_getter': 0, 'issue_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
 def daily_readme(birthday):
@@ -316,7 +316,7 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, commit_data, pr_data, repo_data, contrib_data, contrib_year_data, loc_data):
+def svg_overwrite(filename, commit_data, pr_data, repo_data, contrib_data, issue_data, loc_data):
     """
     Parse SVG files and update elements with commits, PRs, repositories, contributions, and lines written.
 
@@ -337,7 +337,7 @@ def svg_overwrite(filename, commit_data, pr_data, repo_data, contrib_data, contr
     contrib_s = fmt(contrib_data)
     commit_s  = fmt(commit_data)
     pr_s      = fmt(pr_data)
-    cyear_s   = fmt(contrib_year_data)
+    issue_s   = fmt(issue_data)
     loc_net_s = str(loc_data[2])
     loc_add_s = str(loc_data[0])
     loc_del_s = str(loc_data[1])
@@ -351,7 +351,7 @@ def svg_overwrite(filename, commit_data, pr_data, repo_data, contrib_data, contr
     MIN_DOTS  = 2   # minimum dot-field width; 2 gives '. ' as the shortest string
     COL_FLOOR = 36  # divider column floor, gives the left sections room to grow
     WIDTH     = 62  # right edge column, matches the header dash line
-    RLABEL    = 14  # 'Pull Requests:' and 'Contributions:' are both 14 chars
+    RLABEL    = 14  # 'Pull Requests:' and 'Issues Closed:' are both 14 chars
 
     col = max(
         FIXED_1 + len(repo_s) + len(contrib_s) + MIN_DOTS,
@@ -379,8 +379,8 @@ def svg_overwrite(filename, commit_data, pr_data, repo_data, contrib_data, contr
     # From the separator: '| ' (2) + 14-char label + dots + value
     find_and_replace(root, 'pr_data',                pr_s)
     find_and_replace(root, 'pr_data_dots',           make_dots(WIDTH - col - 2 - RLABEL - len(pr_s)))
-    find_and_replace(root, 'contrib_year_data',      cyear_s)
-    find_and_replace(root, 'contrib_year_data_dots', make_dots(WIDTH - col - 2 - RLABEL - len(cyear_s)))
+    find_and_replace(root, 'issue_data',      issue_s)
+    find_and_replace(root, 'issue_data_dots', make_dots(WIDTH - col - 2 - RLABEL - len(issue_s)))
 
     # Line 3 parentheses: '(' sits on the divider column, ')' on the WIDTH edge,
     # and 'X++, Y--' is centered between them (re-centers as the numbers grow).
@@ -451,6 +451,22 @@ def pr_getter(username):
     request = simple_request(pr_getter.__name__, query, {'login': username})
     return int(request.json()['data']['user']['pullRequests']['totalCount'])
 
+def issue_getter(username):
+    """
+    Returns the total number of issues the user has opened and closed
+    """
+    query_count('issue_getter')
+    query = '''
+    query($login: String!){
+        user(login: $login) {
+            issues(states: CLOSED) {
+                totalCount
+            }
+        }
+    }'''
+    request = simple_request(issue_getter.__name__, query, {'login': username})
+    return int(request.json()['data']['user']['issues']['totalCount'])
+
 
 def query_count(funct_id):
     """
@@ -493,19 +509,16 @@ if __name__ == '__main__':
     pr_data, pr_time = perf_counter(pr_getter, USER_NAME)
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
-    # contributions in the current calendar year (Jan 1 -> now, UTC)
-    now = datetime.datetime.now(datetime.timezone.utc)
-    year_start = datetime.datetime(now.year, 1, 1, tzinfo=datetime.timezone.utc)
-    contrib_year_data, contrib_year_time = perf_counter(graph_commits, year_start.isoformat(), now.isoformat())
+    issue_data, issue_time = perf_counter(issue_getter, USER_NAME)
 
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index]) # format added, deleted, and total LOC
 
-    svg_overwrite('dark_mode.svg', commit_data, pr_data, repo_data, contrib_data, contrib_year_data, total_loc[:-1])
-    svg_overwrite('light_mode.svg', commit_data, pr_data, repo_data, contrib_data, contrib_year_data, total_loc[:-1])
+    svg_overwrite('dark_mode.svg', commit_data, pr_data, repo_data, contrib_data, issue_data, total_loc[:-1])
+    svg_overwrite('light_mode.svg', commit_data, pr_data, repo_data, contrib_data, issue_data, total_loc[:-1])
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + pr_time + repo_time + contrib_time + contrib_year_time)),
+        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + pr_time + repo_time + contrib_time + issue_time)),
         ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
