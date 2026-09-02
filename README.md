@@ -24,7 +24,7 @@ Built with a 4-person Agile team using Jira and Git as part of COMP 380 (Intro t
 ### [CSUN JSA Website](https://github.com/13kanaoka/jsa-website) — Bilingual Club Website
 `React` `Vite` `Google Apps Script` `Vercel`
 
-Fully bilingual (English/Japanese) single-page site for CSUN's Japanese Student Association, deployed on Vercel at a custom domain. A lightweight i18n layer swaps every UI string, board bio, and FAQ — plus per-language fonts — at runtime with no reload. The membership sign-up form posts to a serverless Google Apps Script + Google Sheets backend, with server-side email de-duplication, honeypot spam filtering, and input validation.  
+Fully bilingual (English/Japanese) single-page site for CSUN's Japanese Student Association, deployed on Vercel at a custom domain. A lightweight i18n layer swaps every UI string, board bio, and FAQ at runtime with no reload. The membership sign-up form posts to a serverless Google Apps Script + Google Sheets backend, with server-side email de-duplication, honeypot spam filtering, and input validation.  
 [csunjsa.org](https://csunjsa.org)  
 
 **Status →** Live
