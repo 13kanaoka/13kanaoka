@@ -5,10 +5,11 @@
 </picture>
 </h1>
 
-### [Gakuji](https://github.com/13kanaoka/Gakuji) — Kanji Study App
+### [Manamoji (formerly Gakuji)](https://github.com/13kanaoka/Gakuji) — Kanji Study App
 `Flutter` `Firebase` `SQLite`
 
 Cross-platform app for mastering Japanese kanji on iOS, Android, and Web, with account-based cloud sync via Google Sign-In and Cloud Firestore. Uses adaptive spaced-repetition scheduling (FSRS algorithm) and on-device handwriting recognition via Google ML Kit, backed by a custom pipeline parsing the JMdict dictionary into a bundled SQLite database.  
+[Learn More About Manamoji](https://manamoji.com)  
 [Video Demo](https://youtu.be/CNpy9oyenVg)  
 
 **Status →** In development
@@ -22,7 +23,7 @@ Built with a 4-person Agile team using Jira and Git as part of COMP 380 (Intro t
 **Status →** Live
 
 ### [CSUN JSA Website](https://github.com/13kanaoka/jsa-website) — Bilingual Club Website
-`React` `Vite` `Google Apps Script` `Vercel`
+`React` `Google Apps Script` `Vercel`
 
 Fully bilingual (English/Japanese) single-page site for CSUN's Japanese Student Association, deployed on Vercel at a custom domain. A lightweight i18n layer swaps every UI string, board bio, and FAQ at runtime with no reload. The membership sign-up form posts to a serverless Google Apps Script + Google Sheets backend, with server-side email de-duplication, honeypot spam filtering, and input validation.  
 [csunjsa.org](https://csunjsa.org)  
